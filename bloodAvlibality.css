@@ -1,0 +1,108 @@
+﻿.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("http://localhost:49769/Donation_System/image/nguy-n-hi-p-maYeMl3xCrY-unsplash.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+
+.home .content{
+    text-align: center;
+    width:60rem;
+}
+
+.home .content h3{
+    color:white;
+    font-size: 5rem;
+}
+
+.home .content h3 span{
+    color: red;
+}
+
+.home .content p{
+    color:white;
+    font-size: 2.7rem;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+.home .content a{
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+}
+.home .content a:hover{
+    color: #fff;
+    background: none;
+}
+
+#btnDonatenow1
+{
+     padding: 10px 50px;
+    color: #000000;
+}
+#btnDonatenow1:hover
+{
+    background-color: Red; 
+}
+#btnOrgans
+{
+    padding:10px 50px;
+    border:Black;
+}
+#btnOrgans:hover
+{
+  background-color:Red;   
+}
+#btnFund
+{
+    padding:10px 50px;
+}
+#btnFund:hover
+{
+    background-color:Red;
+}
+.features .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.features .box-container .box{
+    padding:3rem 2rem;
+    background: white;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.features .box-container .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.features .box-container .box img{
+    margin:1rem 0;
+    height: 15rem;
+}
+
+.features .box-container .box h3{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color:var(--black);
+}
+
+.features .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color:var(--light-color);
+    padding:1rem 0;
+}
